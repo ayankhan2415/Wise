@@ -1,0 +1,144 @@
+.account-main-div {
+  font-size: 14px;
+}
+
+.table-color1 {
+  background-color: #231f20;
+  color: white;
+  border: 1px yellow;
+  border-radius: 5%;
+  height: 55px !important;
+}
+
+.table-color2 {
+  background-color: #414042;
+  color: white;
+}
+
+.bill-header-text {
+  padding-left: 3% !important;
+}
+
+.bill-header-text h4 {
+  display: inline-block;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.months-for-bill {
+  margin-left: 55%;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 10px !important;
+  cursor: pointer;
+}
+
+.year-for-bill {
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 60%;
+  display: inline-block;
+}
+
+.tbl-pad {
+  padding-top: 15px !important;
+  padding-left: 20px !important;
+}
+
+.radius-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.radius-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bill-label-background {
+  background-color: #e6e7e8;
+  border-radius: 12px;
+  margin-right: 3%;
+  font-weight: 700;
+  border: none;
+  font-size: 14px;
+  padding: 4px 32px !important;
+  cursor: pointer;
+}
+
+.for-bill-date {
+  padding-left: 42% !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #414042;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #231f20;
+}
+
+.success {
+  background-color: #20ff00;
+}
+
+.fail {
+  background-color: red;
+}
+
+.null {
+  background-color: #ffca9f;
+}
+
+@media (max-width: 991px) {
+  .bill-main-div {
+    margin-left: 7%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1435px) {
+  .for-bill-date {
+    padding-left: 28% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .for-bill-date {
+    padding-left: 32% !important;
+  }
+  .for-scroll-screen {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 501px) {
+  .acc-table tr td:nth-child(6) {
+    width: 22% !important;
+  }
+  .acc-table tr td:nth-child(4) {
+    width: 50% !important;
+  }
+  .acc-table tr td:nth-child(5) {
+    width: 35% !important;
+  }
+  .acc-table tr td:nth-child(2) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(3) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(1) {
+    width: 0% !important;
+  }
+  .main-div {
+    padding-right: 4% !important;
+  }
+}
+/*# sourceMappingURL=BillingDates.css.map */

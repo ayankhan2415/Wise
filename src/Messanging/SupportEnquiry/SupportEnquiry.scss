@@ -1,0 +1,19 @@
+.pad-head-left {
+  padding-left: 20px !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+.for-scrolll-query {
+  width: 97%;
+}
+@media (max-width: 768px) {
+  .for-scrolll-query {
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .for-scrolll-query {
+    padding-top: 3%;
+  }
+}

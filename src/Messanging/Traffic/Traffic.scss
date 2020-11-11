@@ -1,0 +1,64 @@
+.Traffic h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+.traffic-label-background {
+  background-color: #e6e7e8;
+  padding: 4px 35px !important ;
+  border-radius: 12px;
+  border: none;
+  // height: 30px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5% !important;
+  cursor: pointer;
+}
+.span-clr-trafic {
+  width: 100%;
+  border-radius: 12px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #ffca9f;
+}
+.trafic-header-text {
+  padding-left: 3% !important;
+}
+.day-for-traffic {
+  margin-left: 18%;
+  font-weight: 700;
+  //   font-size: 14px;
+  //   padding: 5px 15px !important;
+  //   cursor: pointer;
+}
+.taric-date-for-query {
+  padding-left: 16% !important;
+}
+@media (min-width: 752px) and (max-width: 1427px) {
+  .traf-table tr td:nth-child(2) {
+    width: 24% !important;
+  }
+}
+@media (min-width: 420px) and (max-width: 752px) {
+  .traf-table tr td:nth-child(2) {
+    width: 40% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1185px) {
+  .for-pad-topp {
+    padding-top: 3%;
+  }
+  .taric-date-for-query {
+    padding-left: 0% !important;
+  }
+}
+// @media (min-width: 1025px) and (max-width: 1460px) {
+//   .taric-for-query {
+//     padding-left: 0px !important;
+//   }
+// }
+// @media (min-width:1025px ) and (max-width: 1560px) {
+//   .taric-for-query{
+//     margin-left: -145px !important;
+//   }
+
+// }
